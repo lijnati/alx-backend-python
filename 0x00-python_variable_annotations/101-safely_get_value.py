@@ -19,3 +19,4 @@ def safely_get_value(dct: Mapping, key: Any,
         return dct[key]
     else:
         return default
+    
